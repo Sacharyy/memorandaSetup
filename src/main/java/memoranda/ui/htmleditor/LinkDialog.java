@@ -69,7 +69,10 @@ public class LinkDialog extends JDialog {
 
   void jbInit() throws Exception {
 	this.setResizable(false);
-        header.setFont(new java.awt.Font("Dialog", 0, 20));
+	
+	//changed dialog font to 25
+
+        header.setFont(new java.awt.Font("Dialog", 0, 25));
         header.setForeground(new Color(0, 0, 124));
         header.setText(Local.getString("Insert hyperlink"));
         header.setIcon(new ImageIcon(
